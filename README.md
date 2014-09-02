@@ -55,4 +55,4 @@ The following placeholder can be use :
 * **%s :** State filename without extension ;
 * **%t :** File extension of the layout image
 
-The default filename pattern is : %l-%i-%s.%t
+The default filename pattern is : `%l-%i-%s.%t`
