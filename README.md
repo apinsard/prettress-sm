@@ -37,14 +37,16 @@ battery icon for instance (charging/discharging).
     * Do not create images for the given comma-separated steps list
 * **-f, --force**
     * Overwrite files if already exists
-* **-v, --verbose**
+* **-V, --verbose**
     * Write more information to stdout
 * **-q, --quiet**
     * Do not write anything to stdout
-* **--fail-silently**
+* **-Q, --fail-silently**
     * Do not write anything to stderr
 * **--dry-run**
     * Echo filenames that would be created
+* **-v, --version**
+    * Print version information
 
 ### Output filename pattern
 
