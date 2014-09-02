@@ -23,17 +23,17 @@ battery icon for instance (charging/discharging).
     * An image file
 * **-p, --progress**=*PROGRESSION-IMAGE*
     * An image file
-* **-s, --steps**=*NB-STEPS*
+* **-i, --steps**=*NB-STEPS*
     * The minimum that makes sense is 2 (or 1 if you use states)
 * **-t, --threshold**=*NB-PIXELS* 
     * The minimum that makes sens is 1
-* **--state**=*STATE-IMAGE,...*
+* **-s, --state**=*STATE-IMAGE,...*
     * You can specify multiple comma-separated filenames
 * **-b, --black-is**=*COLOR*
     * Recolor black pixels (#000000) with the given color
 * **-w, --white-is**=*COLOR*
     * Recolor white pixels (#ffffff) with the given color
-* **--skip-steps**=*STEP,...*
+* **-k, --skip-steps**=*STEP,...*
     * Do not create images for the given comma-separated steps list
 * **-f, --force**
     * Overwrite files if already exists
@@ -53,6 +53,6 @@ The following placeholder can be use :
 * **%l :** Layout filename without extension ;
 * **%i :** Step number (starting with 0 (empty) to NB-STEPS - 1 (full)) ;
 * **%s :** State filename without extension ;
-* **%t :** File extension of the layout image
+* **%x :** File extension of the layout image
 
-The default filename pattern is : `%l-%i-%s.%t`
+The default filename pattern is : `%l-%i-%s.%x`
